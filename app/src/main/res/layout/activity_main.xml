@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_six"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/mBarChart"
+        android:layout_width="match_parent"
+        android:layout_height="380dp" />
+<Button
+    android:id="@+id/linebtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="实时曲线"/>
+    <Button
+        android:id="@+id/jieya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解压16进制"/>
+    <Button
+        android:id="@+id/zhexian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="折线图"/>
+    <Button
+        android:id="@+id/qipao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="散点图"/>
+    <Button
+        android:id="@+id/sandian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="散点图2"/>
+    <Button
+        android:id="@+id/zhuzhuangtu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="音效"/>
+
+</LinearLayout>

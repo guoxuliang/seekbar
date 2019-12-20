@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 折线图 -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.gxl.bluetooth.utils.iconview.CircleTextImage
+        android:id="@+id/circleTextImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:src="@drawable/icon_sixandone"/>
+</RelativeLayout>
+
+</LinearLayout>
